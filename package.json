@@ -1,0 +1,27 @@
+{
+  "name": "azend-playwright-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js tests/feature/**/*.feature --require-module ts-node/register --require tests/step-definitions/**/*.ts --require tests/hooks/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashodhakithmini/Azend-playwright-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yashodhakithmini/Azend-playwright-assignment/issues"
+  },
+  "homepage": "https://github.com/yashodhakithmini/Azend-playwright-assignment#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2"
+  }
+}
